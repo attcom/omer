@@ -41,7 +41,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['/drained', '#NOLOVE'];
+  let text = ['/failure', 'way2drained'];
 
   text.forEach(function (language, index) {
     typer.move(null);
@@ -66,7 +66,7 @@ function startMainTyping() {
 }
 
 function switchScreen() {
-  document.title = 'o m e r';
+  document.title = 'omer';
 
   $('.intro').fadeOut(1000, function () {
     $('.bg-image').fadeIn(1000);
